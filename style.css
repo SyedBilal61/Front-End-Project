@@ -64,3 +64,120 @@
     color: white;
 }
 /**NavBar Completed**/
+.head2
+{
+    height: 580px;
+    margin-top:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.add
+{
+    width: 830px;
+    background-color: rgb(202, 194, 202);
+    height: 60px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+.add p
+{
+    color: red;
+    font-weight: bolder;
+
+}
+.Cross
+{
+    height: 20px;
+    width: 20px;
+    background-color: #e4e3e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Cross:hover
+{
+    background-color: red;
+}
+.profile
+{
+    height: 420px;
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    
+}
+.pro-info
+{
+    width: 650px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.pro-info
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.pro-info h3
+{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pro-info h1
+{
+color: rgb(109, 109, 109);
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.pro-info h1:hover
+{
+    color: black;
+}
+.pro-info hr
+{
+    margin-right: 330px;
+}
+.pro-info3
+{
+    display: flex;
+    margin-top: 20px;
+}
+.pro-info3A
+{
+    color: darkgoldenrod;
+    font-size: 2.4rem;
+    margin-right: 10px;
+}
+.pro-info3B {
+    background-color: #008000;
+    color: white;
+    font-weight: bolder;
+    width: 250px;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-size: 1rem;
+}
+.pro-photo
+{
+    width: 480px;
+    background-color: aqua;
+    border: 3px solid darkgoldenrod;
+    border-radius: 50%;
+    background-image: url("images/Picture.jpg");
+    background-size: cover;
+}
+/**ProfileInfo completed**/
