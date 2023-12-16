@@ -252,3 +252,96 @@ margin-bottom: 10px;
     flex-wrap: wrap;
 }
 /**Aboutus Section Complete**/
+
+.Services{
+    height: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e7e5e5;
+}
+.Ser-1
+{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.Ser-2
+{
+    height: 780px;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Ser-2A
+{
+    border-right: 1px solid rgb(92, 91, 91);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+    padding-right: 25px;
+}
+.writing1
+{
+    height: 50px;
+    width: 50px;
+    border: 2px solid #008000;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;  
+}
+.writing2 
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.writing2 p
+{
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+
+.thirdA
+{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.Ser-2B
+{
+    border-right: 1px solid rgb(66, 66, 66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+    padding-right: 25px;
+
+}
+.Ser-2C
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+    padding-right: 25px;
+}
+/** section 3rd Completed about services **/
