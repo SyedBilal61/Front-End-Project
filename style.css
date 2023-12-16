@@ -181,3 +181,74 @@ margin-bottom: 10px;
     background-size: cover;
 }
 /**ProfileInfo completed**/
+.about
+{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about1
+{
+    height: 50px;
+    width: 300px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.about1 hr
+{
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-right: 80px;
+}
+.about2{
+    display: flex;
+    
+}
+.about2A
+{
+    width: 50%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-left: 100px;
+}
+.about2B 
+{
+    width: 50%;
+    margin-top: 40px;
+    color: #464645;
+    font-size: 1.5rem;
+    font-weight: bolder;
+
+}
+.about2B p
+{
+
+    color: #464645;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.star 
+{
+    color: #008000;
+    font-size: 0.8rem;
+    display: flex;
+
+}
+.star p {
+    margin-left: 15px;
+    font-size: 0.85rem;
+}
+.Star-sec 
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+/**Aboutus Section Complete**/
