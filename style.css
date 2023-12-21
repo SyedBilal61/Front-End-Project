@@ -7,13 +7,13 @@
 .head
 {
     height: 700px;
-    background-color: #e4e3e1;
+    background-color: #f7f7f7;
 }
 .nav-bar
 {
     height: 70px;
     margin-left: 120px;
-        margin-right: 120px;
+    margin-right: 120px;
     display: flex;
     cursor: pointer;
 }
@@ -30,14 +30,14 @@
 {
     width: 700px;
     height: 70px;
-    background-color: #e4e3e1;
+    background-color: #F7f7f7;
     flex-direction: row;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     font-size: 0.8rem;
     font-weight: bolder;
-    color: rgb(153, 152, 152);
+    color: #707070;
 }
 .Menu p:hover
 {
@@ -76,7 +76,7 @@
 .add
 {
     width: 830px;
-    background-color: rgb(202, 194, 202);
+    background-color: #F0f0f0;
     height: 60px;
     margin-top: 5px;
     display: flex;
@@ -84,6 +84,7 @@
     align-items: center;
     font-size: 1.2rem;
     font-family: sans-serif;
+    border: 1px solid #e4e3e1 ;
 }
 .add p
 {
@@ -95,10 +96,12 @@
 {
     height: 20px;
     width: 20px;
-    background-color: #e4e3e1;
+    background-color: #F0f0f0;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -33px;
+    margin-right: -80px;
 }
 .Cross:hover
 {
@@ -135,9 +138,12 @@
 }
 .pro-info h1
 {
-color: rgb(109, 109, 109);
+color: black;
 margin-top: 10px;
 margin-bottom: 10px;
+font-size: 3rem;
+text-decoration: none;
+
 }
 .pro-info h1:hover
 {
@@ -181,6 +187,8 @@ margin-bottom: 10px;
     background-size: cover;
 }
 /**ProfileInfo completed**/
+
+/**top pointer tag only **/
 .pointer
 {
     height: 30px;
@@ -195,7 +203,10 @@ margin-bottom: 10px;
      position: sticky;
      padding: 5px;
      top: 0;
+     margin-left: 1300px;
+     font-size: 1rem;
 }
+/**top pointer tag only comppleted  **/
 .about
 {
     height: 500px;
@@ -267,7 +278,6 @@ margin-bottom: 10px;
     flex-wrap: wrap;
 }
 /**Aboutus Section Complete**/
-
 .Services{
     height: 1100px;
     display: flex;
@@ -285,6 +295,12 @@ margin-bottom: 10px;
     align-items: center;
     font-size: 2rem;
 }
+.Ser-1 h2
+{
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
 .Ser-2
 {
     height: 780px;
@@ -378,6 +394,11 @@ margin-bottom: 10px;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+}
+.Why1 h2
+{
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
 }
 .Why2
 {
@@ -581,6 +602,7 @@ font-size: 2rem;
     justify-items: center;
     justify-content: center;
     text-align: center;
+    flex-direction: column;
 
 }
 .review2AB h2
@@ -700,7 +722,7 @@ list-style: none ;
 .contact1
 {
     font-size: 2rem;
-    margin-top: 15px;
+    margin-top: -300px;
 }
 .contact1 h2 
 {
@@ -710,7 +732,7 @@ list-style: none ;
 .contact2 {
     height: 350px;
     width: 1150px;
-    display: flex;
+    display: block;
     margin-top: 50px;
     border-radius: 10px;
     flex-direction: column;
@@ -908,7 +930,7 @@ background-color: #008000;
 {
 height: 60px;
 background-color: black;
-color: #6f6f6f;
+color: white;
 display: flex;
 justify-content: center;
 text-align: center;
@@ -916,5 +938,5 @@ align-items: center;
 }
 .rights a
 {
-    
+    color: white;
 }
